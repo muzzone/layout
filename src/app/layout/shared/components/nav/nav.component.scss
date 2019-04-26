@@ -1,0 +1,40 @@
+@import "../../../../../assets/styles/variablers";
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1420px;
+  height: 70px;
+  margin: auto;
+  color: $text-primary;
+  font-size: 16px;
+
+  .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 445px;
+    .user {
+      display: flex;
+      align-items: center;
+      .avatar {
+        width: 40px;
+        height: 40px;
+        background: $primary;
+        border-radius: 100%;
+        margin-right: 20px;
+      }
+    }
+    .nick-name {
+
+    }
+  }
+
+  .nav-right {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

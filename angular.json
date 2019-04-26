@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fonts/inter.css",
               "src/styles.scss"
             ],
             "scripts": [],
