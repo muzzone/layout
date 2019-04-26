@@ -1,0 +1,12 @@
+.cities {
+  margin-top: 60px;
+  &-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    app-cities-card {
+      margin-bottom: 30px;
+    }
+  }
+}

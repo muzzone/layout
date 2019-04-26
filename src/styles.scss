@@ -30,8 +30,21 @@ h4 {
   font-size: 24px;
 }
 
+button {
+  cursor: pointer;
+}
+
 .bold {
   font-weight: bold;
+}
+
+.hr {
+  height: 0px;
+  margin: 0;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid $lighten;
 }
 
 ._container {
@@ -45,6 +58,8 @@ h4 {
   align-items: center;
   justify-content: space-between;
 }
+
+//////// ICONS ////////
 
 .arrow-up, .arrow-down {
   background: url("./assets/images/select.png");
@@ -65,6 +80,16 @@ h4 {
   display: block;
   margin: auto;
 }
+
+.arrow-right {
+  background: url("./assets/images/cta.png");
+  width: 20px;
+  height: 11px;
+  display: block;
+  margin: auto;
+}
+
+///////// ICONS END /////////
 
 .button {
   padding: 10px 20px;

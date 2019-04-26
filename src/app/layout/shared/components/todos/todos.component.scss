@@ -1,0 +1,9 @@
+.todos {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  button {
+    margin-right: 30px;
+  }
+}

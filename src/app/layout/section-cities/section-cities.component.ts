@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionCitiesComponent implements OnInit {
 
+  public demoData = [
+    {name: 'Madrid', image: 'layer4.png'},
+    {name: 'Madrid', image: 'layer4.png'},
+    {name: 'Madrid', image: 'layer4.png'},
+    {name: 'Madrid', image: 'layer4.png'},
+    {name: 'Madrid', image: 'layer4.png'},
+    {name: 'Madrid', image: 'layer4.png'},
+    {name: 'Madrid', image: 'layer4.png'},
+    {name: 'Madrid', image: 'layer4.png'},
+  ]
+
   constructor() { }
 
   ngOnInit() {

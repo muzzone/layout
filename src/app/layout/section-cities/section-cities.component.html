@@ -1,3 +1,9 @@
-<p>
-  section-cities works!
-</p>
+<div class="cities">
+  <div class="_container">
+    <h4>Featured cities</h4>
+    <div class="cities-cards">
+      <app-cities-card *ngFor="let city of demoData"  [name]="city.name" [image]="city.image"></app-cities-card>
+    </div>
+  </div>
+</div>
+
