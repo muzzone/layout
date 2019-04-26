@@ -1,0 +1,9 @@
+<div class="_container">
+  <h4>Especialidades médicas</h4>
+
+  <ul class="especialidades">
+    <li class="especialidades-column" *ngFor="let column of demoData">
+      <p class="especialidades-column_item" *ngFor="let item of column">{{item}}</p>
+    </li>
+  </ul>
+</div>

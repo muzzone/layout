@@ -1,0 +1,39 @@
+@import "../../../assets/styles/variablers";
+
+header {
+  background: url("../../../assets/images/main-background.png");
+  height: 690px;
+  .header-content {
+    padding-top: 200px;
+    width: 714px;
+    h4 {
+      font-weight: normal;
+      color: $text-primary;
+    }
+    .buttons-group {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      &_item {
+        height: 100%;
+        width: 100%;
+        padding: 0 24px;
+        border: none;
+        cursor: pointer;
+      }
+      &_item:first-child {
+        margin-right: 1px;
+        min-width: 360px;
+      }
+      .dropdown-button {
+        background: white;
+      }
+      button.buttons-group_item {
+        background: $primary;
+        max-width: 90px;
+      }
+    }
+  }
+}
