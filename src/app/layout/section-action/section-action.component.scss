@@ -1,0 +1,28 @@
+@import "../../../assets/styles/variablers";
+
+.section-action {
+  text-align: center;
+  padding-top: 100px;
+  height: 450px;
+  background: url("../../../assets/images/back2.png");
+  h2 {
+    display: block;
+  }
+  h4 {
+    margin-top: 30px;
+    display: block;
+    font-weight: normal;
+    color: $text-primary;
+  }
+  button {
+    width: 330px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background: $primary;
+    margin-top: 75px;
+    border-radius: 3px;
+  }
+}

@@ -1,0 +1,66 @@
+@import "../../../assets/styles/variablers";
+
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .content {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+
+    .people {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      .person {
+        cursor: pointer;
+        color: $text-primary;
+        display: flex;
+        align-items: center;
+        width: 360px;
+        transition: 0.1s;
+        > div {
+          padding: 15px;
+          > p {
+            margin: 6px 0;
+          }
+        }
+        &-avatar {
+          filter: grayscale(1);
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+          }
+        }
+        &-name {
+          font-weight: bold;
+        }
+      }
+      .person-active, .person:hover {
+        color: $primary;
+        background: $background;
+        .person-avatar {
+          filter: grayscale(0);
+        }
+      }
+    }
+
+    .review {
+      margin-left: 130px;
+      .stars {
+        margin-bottom: 30px;
+        display: flex;
+        .star {
+          margin-right: 1px;
+        }
+      }
+      .text {
+        p {
+          color: $text-primary;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

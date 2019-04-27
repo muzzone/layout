@@ -1,3 +1,35 @@
-<p>
-  section-reviews works!
-</p>
+<div class="reviews">
+  <div class="_container">
+    <h4>Opiniones más recientes</h4>
+    <div class="content">
+      <ul class="people">
+        <li *ngFor="let person of demoData" [ngClass]="{'person': true, 'person-active': person.active}">
+          <div class="person-avatar">
+            <img src="../../../assets/images/{{person.avatar}}" alt="avatar">
+          </div>
+          <div>
+            <p class="person-name">{{person.name}}</p>
+            <p class="person-city">{{person.city}}</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="review">
+        <div class="stars">
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+        </div>
+        <div class="text">
+          <p>
+            Me he sentido en buenas manos en todo momento. Doctor cercano y profesional, dedicado y con una gran vocación. Los resultadoa han sido excelentes, le recomiendo encarecidamente.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <app-todos></app-todos>
+  </div>
+</div>
