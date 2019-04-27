@@ -1,3 +1,8 @@
-<p>
-  section-cards works!
-</p>
+<div class="cards">
+  <div class="_container">
+    <div class="cards-wrapper">
+      <app-info-card *ngFor="let card of demoData" [icon]="card.icon" [title]="card.title" [text]="card.text">
+      </app-info-card>
+    </div>
+  </div>
+</div>

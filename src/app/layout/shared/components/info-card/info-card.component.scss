@@ -1,0 +1,19 @@
+@import "../../../../../assets/styles/variablers";
+
+.card {
+  width: 330px;
+  height: 330px;
+  background: #f5f4ec;
+  display: block;
+  border-radius: 3px;
+  padding: 30px;
+
+  &-title {
+    margin-top: 90px;
+    font-weight: bold;
+  }
+
+  &-content {
+    color: $text-secondary;
+  }
+}

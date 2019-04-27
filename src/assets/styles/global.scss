@@ -1,0 +1,72 @@
+@import "variablers";
+
+* {
+  font-family: 'Inter';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  color: $text-secondary;
+}
+
+h1, h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.padding-horizontal{
+  padding: 15px 0;
+}
+
+.hr {
+  height: 0px;
+  margin: 0;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid $lighten;
+}
+
+._container {
+  width: 1420px;
+  margin: auto;
+}
+
+.dropdown-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid $text-primary;
+  border-radius: 3px;
+  color: $text-primary;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.input-group {
+  border-radius: 3px;
+}

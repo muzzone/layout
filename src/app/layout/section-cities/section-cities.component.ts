@@ -16,7 +16,7 @@ export class SectionCitiesComponent implements OnInit {
     {name: 'Bilbao', image: 'Layer9.png'},
     {name: 'Granada', image: 'Layer10.png'},
     {name: 'Zaragoza', image: 'Layer11.png'},
-  ]
+  ];
 
   constructor() { }
 
