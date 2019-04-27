@@ -1,0 +1,46 @@
+@import "../../../../../assets/styles/variablers";
+
+.footer {
+  padding: 100px 0;
+  height: 450px;
+  width: 100%;
+  background: $text-secondary;
+  color: $lighten;
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    &-column {
+      width: 360px;
+      a {
+        color: $lighten;
+        display: block;
+        text-decoration: none;
+        margin-bottom: 26px;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+  }
+  .hr {
+    margin-top: 38px;
+    border-color: #504e47;
+  }
+  &-bottom {
+    margin-top: 50px;
+    display: flex;
+    &-left {
+      width: 360px;
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 15px;
+      }
+    }
+    &-right {
+      p {
+        margin: 9px 0;
+        font-size: 14px;
+      }
+    }
+  }
+}
