@@ -1,0 +1,22 @@
+@media screen and (max-width: 1420px) {
+  ._container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  ._container {
+    width: 768px;
+  }
+  ::ng-deep .cities-cards {
+    ::ng-deep .card {
+      width: 290px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ._container {
+    width: 420px;
+  }
+}

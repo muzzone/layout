@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1420px;
   height: 70px;
   margin: auto;
   color: $text-primary;
@@ -19,12 +18,12 @@
 
   .nav-left {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 445px;
+    justify-content: start;
     .user {
       display: flex;
       align-items: center;
+      margin-right: 80px;
       .avatar {
         width: 40px;
         height: 40px;
@@ -39,9 +38,12 @@
   }
 
   .nav-right {
-    width: 450px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    &-item {
+      margin-left: 35px;
+    }
   }
 }
+

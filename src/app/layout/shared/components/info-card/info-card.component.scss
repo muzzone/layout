@@ -1,7 +1,7 @@
 @import "../../../../../assets/styles/variablers";
 
 .card {
-  width: 330px;
+  width: 270px;
   height: 330px;
   background: #f5f4ec;
   display: block;
@@ -15,5 +15,11 @@
 
   &-content {
     color: $text-secondary;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .card {
+    width: 230px;
   }
 }

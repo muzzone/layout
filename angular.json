@@ -27,7 +27,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap-4-grid/css/grid.css",
               "src/assets/fonts/inter.css",
               "src/styles.scss"
             ],
