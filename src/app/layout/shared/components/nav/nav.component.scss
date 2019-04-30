@@ -5,6 +5,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  display: block;
 }
 
 .nav-main {
@@ -47,3 +48,8 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  :host {
+    display: none;
+  }
+}

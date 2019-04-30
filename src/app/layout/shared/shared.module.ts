@@ -6,13 +6,14 @@ import { TodosComponent } from './components/todos/todos.component';
 import { CitiesCardComponent } from './components/cities-card/cities-card.component';
 import { InfoCardComponent } from './components/info-card/info-card.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavMobileComponent } from './components/nav-mobile/nav-mobile.component';
 
 @NgModule({
-  declarations: [NavComponent, FooterComponent, TodosComponent, CitiesCardComponent, InfoCardComponent],
+  declarations: [NavComponent, FooterComponent, TodosComponent, CitiesCardComponent, InfoCardComponent, NavMobileComponent],
   imports: [
     CommonModule,
     NgbModule,
   ],
-  exports: [NavComponent, FooterComponent, TodosComponent, CitiesCardComponent, InfoCardComponent]
+  exports: [NavComponent, FooterComponent, TodosComponent, CitiesCardComponent, InfoCardComponent,  NavMobileComponent]
 })
 export class SharedModule { }
