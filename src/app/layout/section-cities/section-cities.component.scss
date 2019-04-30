@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .cities-cards {
+    justify-content: space-around;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .cities-cards {
     justify-content: center;

@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SectionEspecialidadesComponent } from './section-especialidades.component';
+import {CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA} from '@angular/core';
 
 describe('SectionEspecialidadesComponent', () => {
   let component: SectionEspecialidadesComponent;
@@ -8,7 +9,8 @@ describe('SectionEspecialidadesComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SectionEspecialidadesComponent ]
+      declarations: [ SectionEspecialidadesComponent ],
+      schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
   }));

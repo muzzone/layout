@@ -25,3 +25,19 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .especialidades {
+    flex-wrap: wrap;
+    &-column {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      &_item {
+        display: inline;
+        padding: 10px 6px;
+      }
+    }
+  }
+
+}

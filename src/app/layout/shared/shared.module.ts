@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {NgModule, NO_ERRORS_SCHEMA} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -14,6 +14,6 @@ import { NavMobileComponent } from './components/nav-mobile/nav-mobile.component
     CommonModule,
     NgbModule,
   ],
-  exports: [NavComponent, FooterComponent, TodosComponent, CitiesCardComponent, InfoCardComponent,  NavMobileComponent]
+  exports: [NavComponent, FooterComponent, TodosComponent, CitiesCardComponent, InfoCardComponent,  NavMobileComponent],
 })
 export class SharedModule { }

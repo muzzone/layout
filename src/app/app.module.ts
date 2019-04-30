@@ -16,9 +16,9 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot(routes),
     LayoutModule,
     SharedModule,
-    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

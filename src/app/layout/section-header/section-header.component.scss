@@ -61,6 +61,7 @@ header {
 
 @media screen and (max-width: 620px) {
   header {
+    height: 520px;
     .header-content {
       .buttons-group {
         flex-wrap: wrap;
@@ -70,6 +71,5 @@ header {
       }
     }
   }
-
 }
 

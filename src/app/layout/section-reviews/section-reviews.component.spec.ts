@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SectionReviewsComponent } from './section-reviews.component';
+import {CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA} from '@angular/core';
 
 describe('SectionReviewsComponent', () => {
   let component: SectionReviewsComponent;
@@ -8,7 +9,8 @@ describe('SectionReviewsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SectionReviewsComponent ]
+      declarations: [ SectionReviewsComponent ],
+      schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
   }));

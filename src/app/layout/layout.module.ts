@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule, NO_ERRORS_SCHEMA} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LayoutComponent } from './layout.component';
 import { RouterModule, Routes } from '@angular/router';
@@ -15,7 +15,12 @@ const routes: Routes = [{
 }];
 
 @NgModule({
-  declarations: [LayoutComponent, SectionHeaderComponent, SectionEspecialidadesComponent, SectionCitiesComponent, SectionCardsComponent, SectionReviewsComponent, SectionActionComponent],
+  declarations: [LayoutComponent,
+    SectionHeaderComponent,
+    SectionEspecialidadesComponent,
+    SectionCitiesComponent, SectionCardsComponent,
+    SectionReviewsComponent,
+    SectionActionComponent],
   imports: [
     CommonModule,
     SharedModule,
