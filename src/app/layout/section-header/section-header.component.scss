@@ -38,3 +38,38 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    .header-content {
+      padding-top: 100px;
+      max-width: 100%;
+      .buttons-group {
+        display: flex;
+        width: 100%;
+        &_item:first-child {
+          margin-right: 0;
+          min-width: auto;
+        }
+        &_item:last-child {
+          min-width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+  header {
+    .header-content {
+      .buttons-group {
+        flex-wrap: wrap;
+        &_item:nth-child(2) {
+          width: calc(100% - 138px);
+        }
+      }
+    }
+  }
+
+}
+

@@ -70,3 +70,41 @@ button {
 .input-group {
   border-radius: 3px;
 }
+
+@media screen and (max-width: 1420px) {
+  ._container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  ._container {
+    width: 768px;
+  }
+  ::ng-deep .cities-cards {
+    ::ng-deep .card {
+      width: 290px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ._container {
+    width: calc(100% - 30px);
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  h1, h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+}

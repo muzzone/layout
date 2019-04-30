@@ -44,3 +44,25 @@
     }
   }
 }
+
+@media screen and (max-width: 620px) {
+  .footer {
+    height: auto;
+    &-top {
+      flex-wrap: wrap;
+      &-column {
+        width: 50%;
+        text-align: center;
+      }
+    }
+    &-bottom {
+      justify-content: center;
+      flex-wrap: wrap;
+      > div {
+        justify-content: center;
+        padding-bottom: 15px;
+        text-align: center;
+      }
+    }
+  }
+}
