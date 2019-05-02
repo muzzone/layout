@@ -14,7 +14,7 @@
       margin: 0;
       .person {
         cursor: pointer;
-        color: $text-primary;
+        color: $text-secondary;
         display: flex;
         align-items: center;
         width: 360px;
@@ -57,7 +57,7 @@
       }
       .text {
         p {
-          color: $text-primary;
+          color: $text-secondary;
           font-size: 24px;
         }
       }
